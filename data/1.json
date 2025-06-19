@@ -1,0 +1,387 @@
+{
+    "iqra": [
+        {
+            "page_number": 1,
+            "page_number_arabic": "١",
+            "title": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ",
+            "note_id": "Bacaan langsung A - Ba dst. Tidak perlu diurai/dieja. Bacalah dengan suara pendek.",
+            "lines": [
+                {
+                    "line_index": 1,
+                    "left_column": {
+                        "arabic": "أ = اَ",
+                        "latin": "a a"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "اَ بَ",
+                        "latin": "a ba"
+                    }
+                },
+                {
+                    "line_index": 2,
+                    "left_column": {
+                        "arabic": "بَ اَ بَ",
+                        "latin": "ba a ba"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "اَ بَ اَ",
+                        "latin": "a ba a"
+                    }
+                },
+                {
+                    "line_index": 3,
+                    "left_column": {
+                        "arabic": "بَ اَ اَ",
+                        "latin": "ba a a"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "اَ اَ بَ",
+                        "latin": "a a ba"
+                    }
+                },
+                {
+                    "line_index": 4,
+                    "left_column": {
+                        "arabic": "بَ بَ اَ",
+                        "latin": "ba ba a"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "اَ بَ بَ",
+                        "latin": "a ba ba"
+                    }
+                },
+                {
+                    "line_index": 5,
+                    "left_column": {
+                        "arabic": "بَ اَ بَ",
+                        "latin": "ba a ba"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "اَ بَ اَ",
+                        "latin": "a ba a"
+                    }
+                },
+                {
+                    "line_index": 6,
+                    "left_column": {
+                        "arabic": "اَ اَ اَ",
+                        "latin": "a a a"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "بَ بَ بَ",
+                        "latin": "ba ba ba"
+                    }
+                },
+                {
+                    "line_index": 7,
+                    "left_column": {
+                        "arabic": "اَ بَ",
+                        "latin": "a ba"
+                    },
+                    "center_column": {
+                        "arabic": "اَ بَ",
+                        "latin": "a ba"
+                    },
+                    "right_column": {
+                        "arabic": "اَ بَ",
+                        "latin": "a ba"
+                    }
+                }
+            ]
+        },
+        {
+            "page_number": 2,
+            "page_number_arabic": "٢",
+            "title": null,
+            "note_id": "Bacaan langsung A - Ba dst. Baacalah dengan suara pendek",
+            "lines": [
+                {
+                    "line_index": 1,
+                    "left_column": null,
+                    "center_column": {
+                        "arabic": "بَ تَ",
+                        "latin": "ba ta"
+                    },
+                    "right_column": null
+                },
+                {
+                    "line_index": 2,
+                    "left_column": {
+                        "arabic": "اَ تَ بَ",
+                        "latin": "a ta ba"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "تَ بَ اَ",
+                        "latin": "ta ba a"
+                    }
+                },
+                {
+                    "line_index": 3,
+                    "left_column": {
+                        "arabic": "تَ اَ بَ",
+                        "latin": "ta a ba"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "اَ بَ تَ",
+                        "latin": "a ba ta"
+                    }
+                },
+                {
+                    "line_index": 4,
+                    "left_column": {
+                        "arabic": "بَ تَ اَ",
+                        "latin": "ba ta a"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "اَ تَ بَ",
+                        "latin": "a ta ba"
+                    }
+                },
+                {
+                    "line_index": 5,
+                    "left_column": {
+                        "arabic": "تَ اَ تَ",
+                        "latin": "ta a ta"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "بَ اَ تَ",
+                        "latin": "ba a ta"
+                    }
+                },
+                {
+                    "line_index": 6,
+                    "left_column": {
+                        "arabic": "اَ تَ بَ",
+                        "latin": "a ta ba"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "تَ تَ اَ",
+                        "latin": "ta ta a"
+                    }
+                },
+                {
+                    "line_index": 7,
+                    "left_column": {
+                        "arabic": "اَ بَ تَ",
+                        "latin": "a ba ta"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "اَ بَ تَ",
+                        "latin": "a ba ta"
+                    }
+                }
+            ]
+        },
+        {
+            "page_number": 3,
+            "page_number_arabic": "٣",
+            "title": null,
+            "note_id": null,
+            "lines": [
+                {
+                    "line_index": 1,
+                    "left_column": null,
+                    "center_column": {
+                        "arabic": "بَ تَ ثَ",
+                        "latin": "ba ta tsa"
+                    },
+                    "right_column": null
+                },
+                {
+                    "line_index": 2,
+                    "left_column": {
+                        "arabic": "ثَ اَ بَ",
+                        "latin": "tsa a ba"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "ثَ بَ تَ",
+                        "latin": "tsa ba ta"
+                    }
+                },
+                {
+                    "line_index": 3,
+                    "left_column": {
+                        "arabic": "بَ تَ تَ",
+                        "latin": "ba ta ta"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "بَ اَ ثَ",
+                        "latin": "ba a tsa"
+                    }
+                },
+                {
+                    "line_index": 4,
+                    "left_column": {
+                        "arabic": "اَ تَ بَ",
+                        "latin": "a ta ba"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "ثَ بَ ثَ",
+                        "latin": "tsa ba tsa"
+                    }
+                },
+                {
+                    "line_index": 5,
+                    "left_column": {
+                        "arabic": "تَ بَ تَ",
+                        "latin": "ta ba ta"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "اَ ثَ ثَ",
+                        "latin": "a tsa tsa"
+                    }
+                },
+                {
+                    "line_index": 6,
+                    "left_column": {
+                        "arabic": "تَ تَ اَ",
+                        "latin": "ta ta a"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "بَ ثَ ثَ",
+                        "latin": "ba tsa tsa"
+                    }
+                },
+                {
+                    "line_index": 7,
+                    "left_column": {
+                        "arabic": "ثَ بَ تَ",
+                        "latin": "tsa ba ta"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "بَ تَ ثَ",
+                        "latin": "ba ta tsa"
+                    }
+                },
+                {
+                    "line_index": 8,
+                    "left_column": {
+                        "arabic": "اَ بَ تَ ثَ",
+                        "latin": "a ba ta tsa"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "اَ بَ تَ ثَ",
+                        "latin": "a ba ta tsa"
+                    }
+                }
+            ]
+        },
+        {
+            "page_number": 4,
+            "page_number_arabic": "٤",
+            "title": null,
+            "note_id": null,
+            "lines": [
+                {
+                    "line_index": 1,
+                    "left_column": null,
+                    "center_column": {
+                        "arabic": "جَ",
+                        "latin": "ja"
+                    },
+                    "right_column": null
+                },
+                {
+                    "line_index": 2,
+                    "left_column": {
+                        "arabic": "اَ جَ جَ",
+                        "latin": "a ja ja"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "ثَ اَ جَ",
+                        "latin": "tsa a ja"
+                    }
+                },
+                {
+                    "line_index": 3,
+                    "left_column": {
+                        "arabic": "اَ تَ جَ",
+                        "latin": "a ta ja"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "ثَ بَ جَ",
+                        "latin": "tsa ba ja"
+                    }
+                },
+                {
+                    "line_index": 4,
+                    "left_column": {
+                        "arabic": "بَ جَ ثَ",
+                        "latin": "ba ja tsa"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "ثَ اَ جَ",
+                        "latin": "tsa a ja"
+                    }
+                },
+                {
+                    "line_index": 5,
+                    "left_column": {
+                        "arabic": "جَ اَ بَ",
+                        "latin": "ja a ba"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "جَ اَ ثَ",
+                        "latin": "ja a tsa"
+                    }
+                },
+                {
+                    "line_index": 6,
+                    "left_column": {
+                        "arabic": "تَ اَ جَ",
+                        "latin": "ta a ja"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "ثَ جَ جَ",
+                        "latin": "tsa ja ja"
+                    }
+                },
+                {
+                    "line_index": 7,
+                    "left_column": {
+                        "arabic": "جَ اَ جَ",
+                        "latin": "ja a ja"
+                    },
+                    "center_column": null,
+                    "right_column": {
+                        "arabic": "جَ ثَ ثَ",
+                        "latin": "ja tsa tsa"
+                    }
+                },
+                {
+                    "line_index": 8,
+                    "left_column": null,
+                    "center_column": {
+                        "arabic": "اَ بَ تَ ثَ جَ",
+                        "latin": "a ba ta tsa ja"
+                    },
+                    "right_column": null
+                }
+            ]
+        }
+    ]
+}
