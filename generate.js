@@ -4,19 +4,20 @@ const hijaiyah = [
     "ف", "ق", "ك", "ل", "م", "ن", "ه", "و", "ي"
 ];
 
-const latin = [
-    "a", "a'", "i'", "hamzah", "wu'", "yi'", "ba", "ta", "tsa", "ja", "ha", "kha",
-    "da", "dza", "ra", "za", "sa", "sya", "sha", "dha", "tha", "zha", "'a", "gha",
-    "fa", "qa", "ka", "la", "ma", "na", "ha", "wa", "ya"
-];
 
+const latin = [
+    "a", "a'", "i'", "hamzah", "wu'", "yi'", "ba", "ta", "tsa", "ja",
+    "ha", "kha", "da", "dza", "ra", "za", "sa", "sya", "sha", "dha",
+    "tha", "zha", "'a", "gha", "fa", "qa", "ka", "la", "ma", "na",
+    "haa", "wa", "ya"
+];
 
 
 const latinToHijaiyah = {
     a: "اَ", ba: "بَ", ta: "تَ", tsa: "ثَ", ja: "جَ", ha: "حَ", kha: "خَ",
     da: "دَ", dza: "ذَ", ra: "رَ", za: "زَ", sa: "سَ", sya: "شَ", sha: "صَ",
     dha: "ضَ", tha: "طَ", zha: "ظَ", zho: "ظَ", "'a": "عَ", gha: "غَ", fa: "فَ", qa: "قَ",
-    ka: "كَ", la: "لَ", ma: "مَ", na: "نَ", ha: "هَ", wa: "وَ", ya: "يَ", hamzah: "أ",
+    ka: "كَ", la: "لَ", ma: "مَ", na: "نَ", haa: "هَ", wa: "وَ", ya: "يَ", hamzah: "أ",
 };
 
 
@@ -27,30 +28,35 @@ function generatePageJson(structuredInput, note_id = "", title = null, page_numb
         const [leftLatin, centerLatin, rightLatin] = structuredInput[i];
 
         const line = {
-            line_index: i + 1,
-            left_column: null,
-            center_column: null,
-            right_column: null
+            index: i + 1,
+            left: null,
+            center: null,
+            right: null,
         };
 
         if (Array.isArray(leftLatin) && leftLatin.length > 0) {
-            line.left_column = {
+            line.left = {
                 arabic: leftLatin.map(l => latinToHijaiyah[l] || "").join(" "),
-                latin: leftLatin.join(" ")
+                latin: leftLatin.join(" "),
+                audio: null
+
+
             };
         }
 
         if (Array.isArray(centerLatin) && centerLatin.length > 0) {
-            line.center_column = {
+            line.center = {
                 arabic: centerLatin.map(l => latinToHijaiyah[l] || "").join(" "),
-                latin: centerLatin.join(" ")
+                latin: centerLatin.join(" "),
+                audio: null
             };
         }
 
         if (Array.isArray(rightLatin) && rightLatin.length > 0) {
-            line.right_column = {
+            line.right = {
                 arabic: rightLatin.map(l => latinToHijaiyah[l] || "").join(" "),
-                latin: rightLatin.join(" ")
+                latin: rightLatin.join(" "),
+                audio: null
             };
         }
 
@@ -58,33 +64,34 @@ function generatePageJson(structuredInput, note_id = "", title = null, page_numb
     }
 
     return {
-        page_number,
-        page_number_arabic,
+        pageNumber: page_number,
+        pageArabic: page_number_arabic,
         title,
-        note_id,
+        note: note_id,
         lines
     };
 }
 
 
 const barisInput = [
-    [null, ['ja'], null],
-    [['a', 'ja', 'ja'], null, ['tsa', 'a', 'ja']],
-    [['a', 'ta', 'ja'], null, ['tsa', 'ba', 'ja']],
-    [['ba', 'ja', 'tsa'], null, ['tsa', 'a', 'ja']],
-    [['ja', 'a', 'ba'], null, ['ja', 'a', 'tsa']],
-    [['ta', 'a', 'ja'], null, ['tsa', 'ja', 'ja']],
-    [['ja', 'a', 'ja'], null, ['ja', 'tsa', 'tsa']],
-    [null, ['a', 'ba', 'ta', 'tsa', 'ja'], null]
-
+    [null, ['sh'], null],
+    [['za', 'ta', 'sya'], ['sa', 'sya', 'sya'], ['sa', 'a', 'sya']],
+    [['sya', 'ta', 'dza'], ['da', 'ra', 'sa'], ['sya', 'dza', 'tsa']],
+    [['ja', 'ra', 'sa'], ['kha', 'sya', 'ba'], ['za', 'ha', 'tsa']],
+    [['ha', 'sa', 'da'], ['ra', 'sya', 'dza'], ['sa', 'sya', 'a']],
+    [['sya', 'za', 'ra'], ['a', 'sa', 'sya'], ['dza', 'kha', 'za']],
+    [['a', 'ba', 'ta'], ['sya', 'za', 'ja'], ['kha', 'sa', 'da']],
+    [null, ['tsa', 'ja', 'ha', 'kha', 'da', 'dza', 'ra', 'za', 'sa'], null],
 ];
+
+
 
 const pageJson = generatePageJson(
     barisInput,
     null,
     null,
-    4,
-    toArabicNumber(4)
+    13,
+    toArabicNumber(13)
 );
 
 

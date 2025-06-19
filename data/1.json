@@ -1,94 +1,109 @@
 {
-    "iqra": [
+    "volume": 1,
+    "totalPages": 30,
+    "title": "Iqra Jilid 1: Pengantar Membaca Huruf Hijaiyah",
+    "description": "Jilid pertama dari seri Buku Iqra yang dirancang untuk membantu pemula mengenal dan membaca huruf hijaiyah dengan mudah dan bertahap. Materi disusun mulai dari huruf tunggal hingga suku kata sederhana.",
+    "cover": "",
+    "audioIntro": null,
+    "created_at": "2024-06-19T00:00:00Z",
+    "updated_at": "2025-06-31T10:00:00Z",
+    "pages": [
         {
-            "page_number": 1,
-            "page_number_arabic": "١",
+            "pageNumber": 1,
+            "pageArabic": "١",
             "title": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ",
-            "note_id": "Bacaan langsung A - Ba dst. Tidak perlu diurai/dieja. Bacalah dengan suara pendek.",
+            "note": "Bacaan langsung A - Ba dst. Tidak perlu diurai/dieja. Bacalah dengan suara pendek.",
             "lines": [
                 {
-                    "line_index": 1,
-                    "left_column": {
+                    "index": 1,
+                    "right": {
                         "arabic": "أ = اَ",
-                        "latin": "a a"
+                        "latin": "a a",
+                        "audio": null
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "اَ بَ",
-                        "latin": "a ba"
+                        "latin": "a ba",
+                        "audio": null
                     }
                 },
                 {
-                    "line_index": 2,
-                    "left_column": {
+                    "index": 2,
+                    "right": {
                         "arabic": "بَ اَ بَ",
-                        "latin": "ba a ba"
+                        "latin": "ba a ba",
+                        "audio": null
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "اَ بَ اَ",
-                        "latin": "a ba a"
+                        "latin": "a ba a",
+                        "audio": null
                     }
                 },
                 {
-                    "line_index": 3,
-                    "left_column": {
+                    "index": 3,
+                    "right": {
                         "arabic": "بَ اَ اَ",
-                        "latin": "ba a a"
+                        "latin": "ba a a",
+                        "audio": null
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "اَ اَ بَ",
-                        "latin": "a a ba"
+                        "latin": "a a ba",
+                        "audio": null
                     }
                 },
                 {
-                    "line_index": 4,
-                    "left_column": {
+                    "index": 4,
+                    "right": {
                         "arabic": "بَ بَ اَ",
-                        "latin": "ba ba a"
+                        "latin": "ba ba a",
+                        "audio": null
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "اَ بَ بَ",
                         "latin": "a ba ba"
                     }
                 },
                 {
-                    "line_index": 5,
-                    "left_column": {
+                    "index": 5,
+                    "right": {
                         "arabic": "بَ اَ بَ",
                         "latin": "ba a ba"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "اَ بَ اَ",
                         "latin": "a ba a"
                     }
                 },
                 {
-                    "line_index": 6,
-                    "left_column": {
+                    "index": 6,
+                    "right": {
                         "arabic": "اَ اَ اَ",
                         "latin": "a a a"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "بَ بَ بَ",
                         "latin": "ba ba ba"
                     }
                 },
                 {
-                    "line_index": 7,
-                    "left_column": {
+                    "index": 7,
+                    "right": {
                         "arabic": "اَ بَ",
                         "latin": "a ba"
                     },
-                    "center_column": {
+                    "center": {
                         "arabic": "اَ بَ",
                         "latin": "a ba"
                     },
-                    "right_column": {
+                    "left": {
                         "arabic": "اَ بَ",
                         "latin": "a ba"
                     }
@@ -96,88 +111,88 @@
             ]
         },
         {
-            "page_number": 2,
-            "page_number_arabic": "٢",
+            "pageNumber": 2,
+            "pageArabic": "٢",
             "title": null,
-            "note_id": "Bacaan langsung A - Ba dst. Baacalah dengan suara pendek",
+            "note": "Bacaan langsung A - Ba dst. Baacalah dengan suara pendek",
             "lines": [
                 {
-                    "line_index": 1,
-                    "left_column": null,
-                    "center_column": {
+                    "index": 1,
+                    "right": null,
+                    "center": {
                         "arabic": "بَ تَ",
                         "latin": "ba ta"
                     },
-                    "right_column": null
+                    "left": null
                 },
                 {
-                    "line_index": 2,
-                    "left_column": {
+                    "index": 2,
+                    "right": {
                         "arabic": "اَ تَ بَ",
                         "latin": "a ta ba"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "تَ بَ اَ",
                         "latin": "ta ba a"
                     }
                 },
                 {
-                    "line_index": 3,
-                    "left_column": {
+                    "index": 3,
+                    "right": {
                         "arabic": "تَ اَ بَ",
                         "latin": "ta a ba"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "اَ بَ تَ",
                         "latin": "a ba ta"
                     }
                 },
                 {
-                    "line_index": 4,
-                    "left_column": {
+                    "index": 4,
+                    "right": {
                         "arabic": "بَ تَ اَ",
                         "latin": "ba ta a"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "اَ تَ بَ",
                         "latin": "a ta ba"
                     }
                 },
                 {
-                    "line_index": 5,
-                    "left_column": {
+                    "index": 5,
+                    "right": {
                         "arabic": "تَ اَ تَ",
                         "latin": "ta a ta"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "بَ اَ تَ",
                         "latin": "ba a ta"
                     }
                 },
                 {
-                    "line_index": 6,
-                    "left_column": {
+                    "index": 6,
+                    "right": {
                         "arabic": "اَ تَ بَ",
                         "latin": "a ta ba"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "تَ تَ اَ",
                         "latin": "ta ta a"
                     }
                 },
                 {
-                    "line_index": 7,
-                    "left_column": {
+                    "index": 7,
+                    "right": {
                         "arabic": "اَ بَ تَ",
                         "latin": "a ba ta"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "اَ بَ تَ",
                         "latin": "a ba ta"
                     }
@@ -185,100 +200,100 @@
             ]
         },
         {
-            "page_number": 3,
-            "page_number_arabic": "٣",
+            "pageNumber": 3,
+            "pageArabic": "٣",
             "title": null,
-            "note_id": null,
+            "note": null,
             "lines": [
                 {
-                    "line_index": 1,
-                    "left_column": null,
-                    "center_column": {
+                    "index": 1,
+                    "right": null,
+                    "center": {
                         "arabic": "بَ تَ ثَ",
                         "latin": "ba ta tsa"
                     },
-                    "right_column": null
+                    "left": null
                 },
                 {
-                    "line_index": 2,
-                    "left_column": {
+                    "index": 2,
+                    "right": {
                         "arabic": "ثَ اَ بَ",
                         "latin": "tsa a ba"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "ثَ بَ تَ",
                         "latin": "tsa ba ta"
                     }
                 },
                 {
-                    "line_index": 3,
-                    "left_column": {
+                    "index": 3,
+                    "right": {
                         "arabic": "بَ تَ تَ",
                         "latin": "ba ta ta"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "بَ اَ ثَ",
                         "latin": "ba a tsa"
                     }
                 },
                 {
-                    "line_index": 4,
-                    "left_column": {
+                    "index": 4,
+                    "right": {
                         "arabic": "اَ تَ بَ",
                         "latin": "a ta ba"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "ثَ بَ ثَ",
                         "latin": "tsa ba tsa"
                     }
                 },
                 {
-                    "line_index": 5,
-                    "left_column": {
+                    "index": 5,
+                    "right": {
                         "arabic": "تَ بَ تَ",
                         "latin": "ta ba ta"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "اَ ثَ ثَ",
                         "latin": "a tsa tsa"
                     }
                 },
                 {
-                    "line_index": 6,
-                    "left_column": {
+                    "index": 6,
+                    "right": {
                         "arabic": "تَ تَ اَ",
                         "latin": "ta ta a"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "بَ ثَ ثَ",
                         "latin": "ba tsa tsa"
                     }
                 },
                 {
-                    "line_index": 7,
-                    "left_column": {
+                    "index": 7,
+                    "right": {
                         "arabic": "ثَ بَ تَ",
                         "latin": "tsa ba ta"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "بَ تَ ثَ",
                         "latin": "ba ta tsa"
                     }
                 },
                 {
-                    "line_index": 8,
-                    "left_column": {
+                    "index": 8,
+                    "right": {
                         "arabic": "اَ بَ تَ ثَ",
                         "latin": "a ba ta tsa"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "اَ بَ تَ ثَ",
                         "latin": "a ba ta tsa"
                     }
@@ -286,100 +301,919 @@
             ]
         },
         {
-            "page_number": 4,
-            "page_number_arabic": "٤",
+            "pageNumber": 4,
+            "pageArabic": "٤",
             "title": null,
-            "note_id": null,
+            "note": null,
             "lines": [
                 {
-                    "line_index": 1,
-                    "left_column": null,
-                    "center_column": {
+                    "index": 1,
+                    "right": null,
+                    "center": {
                         "arabic": "جَ",
                         "latin": "ja"
                     },
-                    "right_column": null
+                    "left": null
                 },
                 {
-                    "line_index": 2,
-                    "left_column": {
+                    "index": 2,
+                    "right": {
                         "arabic": "اَ جَ جَ",
                         "latin": "a ja ja"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "ثَ اَ جَ",
                         "latin": "tsa a ja"
                     }
                 },
                 {
-                    "line_index": 3,
-                    "left_column": {
+                    "index": 3,
+                    "right": {
                         "arabic": "اَ تَ جَ",
                         "latin": "a ta ja"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "ثَ بَ جَ",
                         "latin": "tsa ba ja"
                     }
                 },
                 {
-                    "line_index": 4,
-                    "left_column": {
+                    "index": 4,
+                    "right": {
                         "arabic": "بَ جَ ثَ",
                         "latin": "ba ja tsa"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "ثَ اَ جَ",
                         "latin": "tsa a ja"
                     }
                 },
                 {
-                    "line_index": 5,
-                    "left_column": {
+                    "index": 5,
+                    "right": {
                         "arabic": "جَ اَ بَ",
                         "latin": "ja a ba"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "جَ اَ ثَ",
                         "latin": "ja a tsa"
                     }
                 },
                 {
-                    "line_index": 6,
-                    "left_column": {
+                    "index": 6,
+                    "right": {
                         "arabic": "تَ اَ جَ",
                         "latin": "ta a ja"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "ثَ جَ جَ",
                         "latin": "tsa ja ja"
                     }
                 },
                 {
-                    "line_index": 7,
-                    "left_column": {
+                    "index": 7,
+                    "right": {
                         "arabic": "جَ اَ جَ",
                         "latin": "ja a ja"
                     },
-                    "center_column": null,
-                    "right_column": {
+                    "center": null,
+                    "left": {
                         "arabic": "جَ ثَ ثَ",
                         "latin": "ja tsa tsa"
                     }
                 },
                 {
-                    "line_index": 8,
-                    "left_column": null,
-                    "center_column": {
+                    "index": 8,
+                    "right": null,
+                    "center": {
                         "arabic": "اَ بَ تَ ثَ جَ",
                         "latin": "a ba ta tsa ja"
                     },
-                    "right_column": null
+                    "left": null
+                }
+            ]
+        },
+        {
+            "pageNumber": 5,
+            "pageArabic": "٥",
+            "title": null,
+            "note": null,
+            "lines": [
+                {
+                    "index": 1,
+                    "right": null,
+                    "center": {
+                        "arabic": "جَ حَ",
+                        "latin": "ja ha"
+                    },
+                    "left": null
+                },
+                {
+                    "index": 2,
+                    "right": {
+                        "arabic": "جَ اَ حَ",
+                        "latin": "ja a ha"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "جَ حَ ثَ",
+                        "latin": "ja ha tsa"
+                    }
+                },
+                {
+                    "index": 3,
+                    "right": {
+                        "arabic": "حَ جَ تَ",
+                        "latin": "ha ja ta"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "بَ حَ ثَ",
+                        "latin": "ba ha tsa"
+                    }
+                },
+                {
+                    "index": 4,
+                    "right": {
+                        "arabic": "جَ حَ تَ",
+                        "latin": "ja ha ta"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "اَ حَ بَ",
+                        "latin": "a ha ba"
+                    }
+                },
+                {
+                    "index": 5,
+                    "right": {
+                        "arabic": "جَ اَ ثَ",
+                        "latin": "ja a tsa"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "حَ اَ حَ",
+                        "latin": "ha a ha"
+                    }
+                },
+                {
+                    "index": 6,
+                    "right": {
+                        "arabic": "ثَ بَ حَ",
+                        "latin": "tsa ba ha"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "تَ اَ حَ",
+                        "latin": "ta a ha"
+                    }
+                },
+                {
+                    "index": 7,
+                    "right": {
+                        "arabic": "اَ جَ جَ",
+                        "latin": "a ja ja"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "اَ حَ حَ",
+                        "latin": "a ha ha"
+                    }
+                },
+                {
+                    "index": 8,
+                    "right": null,
+                    "center": {
+                        "arabic": "اَ بَ تَ ثَ جَ حَ",
+                        "latin": "a ba ta tsa ja ha"
+                    },
+                    "left": null
+                }
+            ]
+        },
+        {
+            "pageNumber": 6,
+            "pageArabic": "٦",
+            "title": null,
+            "note": null,
+            "lines": [
+                {
+                    "index": 1,
+                    "right": null,
+                    "center": {
+                        "arabic": "جَ حَ خَ",
+                        "latin": "ja ha kha"
+                    },
+                    "left": null
+                },
+                {
+                    "index": 2,
+                    "right": {
+                        "arabic": "حَ اَ خَ",
+                        "latin": "ha a kha"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "جَ اَ خَ",
+                        "latin": "ja a kha"
+                    }
+                },
+                {
+                    "index": 3,
+                    "right": {
+                        "arabic": "ثَ اَ خَ",
+                        "latin": "tsa a kha"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "خَ تَ جَ",
+                        "latin": "kha ta ja"
+                    }
+                },
+                {
+                    "index": 4,
+                    "right": {
+                        "arabic": "بَ اَ خَ",
+                        "latin": "ba a kha"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "تَ حَ ثَ",
+                        "latin": "ta ha tsa"
+                    }
+                },
+                {
+                    "index": 5,
+                    "right": {
+                        "arabic": "جَ اَ حَ",
+                        "latin": "ja a ha"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "بَ حَ ثَ",
+                        "latin": "ba ha tsa"
+                    }
+                },
+                {
+                    "index": 6,
+                    "right": {
+                        "arabic": "تَ اَ خَ",
+                        "latin": "ta a kha"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "جَ حَ ثَ",
+                        "latin": "ja ha tsa"
+                    }
+                },
+                {
+                    "index": 7,
+                    "right": {
+                        "arabic": "اَ خَ خَ",
+                        "latin": "a kha kha"
+                    },
+                    "center": null,
+                    "left": {
+                        "arabic": "جَ حَ خَ",
+                        "latin": "ja ha kha"
+                    }
+                },
+                {
+                    "index": 8,
+                    "right": null,
+                    "center": {
+                        "arabic": "اَ بَ تَ ثَ جَ حَ خَ",
+                        "latin": "a ba ta tsa ja ha kha"
+                    },
+                    "left": null
+                }
+            ]
+        },
+        {
+            "pageNumber": 7,
+            "pageArabic": "٧",
+            "title": null,
+            "note": null,
+            "lines": [
+                {
+                    "index": 1,
+                    "left": null,
+                    "center": {
+                        "arabic": "دَ",
+                        "latin": "da"
+                    },
+                    "right": null
+                },
+                {
+                    "index": 2,
+                    "left": {
+                        "arabic": "حَ دَ خَ",
+                        "latin": "ha da kha"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "خَ دَ دَ",
+                        "latin": "kha da da"
+                    }
+                },
+                {
+                    "index": 3,
+                    "left": {
+                        "arabic": "جَ حَ دَ",
+                        "latin": "ja ha da"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "حَ دَ ثَ",
+                        "latin": "ha da tsa"
+                    }
+                },
+                {
+                    "index": 4,
+                    "left": {
+                        "arabic": "حَ جَ دَ",
+                        "latin": "ha ja da"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "حَ تَ دَ",
+                        "latin": "ha ta da"
+                    }
+                },
+                {
+                    "index": 5,
+                    "left": {
+                        "arabic": "جَ حَ خَ",
+                        "latin": "ja ha kha"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "ثَ بَ دَ",
+                        "latin": "tsa ba da"
+                    }
+                },
+                {
+                    "index": 6,
+                    "left": {
+                        "arabic": "جَ دَ جَ",
+                        "latin": "ja da ja"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "حَ بَ دَ",
+                        "latin": "ha ba da"
+                    }
+                },
+                {
+                    "index": 7,
+                    "left": {
+                        "arabic": "خَ دَ دَ",
+                        "latin": "kha da da"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "حَ جَ تَ",
+                        "latin": "ha ja ta"
+                    }
+                },
+                {
+                    "index": 8,
+                    "left": null,
+                    "center": {
+                        "arabic": "اَ بَ تَ ثَ جَ حَ خَ دَ",
+                        "latin": "a ba ta tsa ja ha kha da"
+                    },
+                    "right": null
+                }
+            ]
+        },
+        {
+            "pageNumber": 8,
+            "pageArabic": "٨",
+            "title": null,
+            "note": null,
+            "lines": [
+                {
+                    "index": 1,
+                    "left": null,
+                    "center": {
+                        "arabic": "دَ ذَ",
+                        "latin": "da dza"
+                    },
+                    "right": null
+                },
+                {
+                    "index": 2,
+                    "left": {
+                        "arabic": "خَ دَ ذَ",
+                        "latin": "kha da dza"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "دَ اَ ذَ",
+                        "latin": "da a dza"
+                    }
+                },
+                {
+                    "index": 3,
+                    "left": {
+                        "arabic": "جَ حَ ذَ",
+                        "latin": "ja ha dza"
+                    },
+                    "center": null,
+                    "right": null
+                },
+                {
+                    "index": 4,
+                    "left": {
+                        "arabic": "ثَ اَ ذَ",
+                        "latin": "tsa a dza"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "خَ تَ دَ",
+                        "latin": "kha ta da"
+                    }
+                },
+                {
+                    "index": 5,
+                    "left": {
+                        "arabic": "ذَ بَ حَ",
+                        "latin": "dza ba ha"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "جَ حَ خَ",
+                        "latin": "ja ha kha"
+                    }
+                },
+                {
+                    "index": 6,
+                    "left": {
+                        "arabic": "اَ خَ ذَ",
+                        "latin": "a kha dza"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "حَ دَ ثَ",
+                        "latin": "ha da tsa"
+                    }
+                },
+                {
+                    "index": 7,
+                    "left": {
+                        "arabic": "خَ دَ ذَ",
+                        "latin": "kha da dza"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "دَ اَ ذَ",
+                        "latin": "da a dza"
+                    }
+                },
+                {
+                    "index": 8,
+                    "left": null,
+                    "center": {
+                        "arabic": "اَ بَ تَ ثَ جَ حَ خَ دَ ذَ",
+                        "latin": "a ba ta tsa ja ha kha da dza"
+                    },
+                    "right": null
+                }
+            ]
+        },
+        {
+            "pageNumber": 9,
+            "pageArabic": "٩",
+            "title": null,
+            "note": null,
+            "lines": [
+                {
+                    "index": 1,
+                    "left": null,
+                    "center": {
+                        "arabic": "رَ",
+                        "latin": "ra"
+                    },
+                    "right": null
+                },
+                {
+                    "index": 2,
+                    "left": {
+                        "arabic": "خَ ذَ رَ",
+                        "latin": "kha dza ra"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "دَ ذَ رَ",
+                        "latin": "da dza ra"
+                    }
+                },
+                {
+                    "index": 3,
+                    "left": {
+                        "arabic": "جَ رَ ذَ",
+                        "latin": "ja ra dza"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "رَ حَ دَ",
+                        "latin": "ra ha da"
+                    }
+                },
+                {
+                    "index": 4,
+                    "left": {
+                        "arabic": "تَ ذَ رَ",
+                        "latin": "ta dza ra"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "رَ حَ ثَ",
+                        "latin": "ra ha tsa"
+                    }
+                },
+                {
+                    "index": 5,
+                    "left": {
+                        "arabic": "خَ رَ جَ",
+                        "latin": "kha ra ja"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "بَ رَ دَ",
+                        "latin": "ba ra da"
+                    }
+                },
+                {
+                    "index": 6,
+                    "left": {
+                        "arabic": "بَ رَ تَ",
+                        "latin": "ba ra ta"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "حَ ذَ رَ",
+                        "latin": "ha dza ra"
+                    }
+                },
+                {
+                    "index": 7,
+                    "left": {
+                        "arabic": "حَ جَ رَ",
+                        "latin": "ha ja ra"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "خَ خَ ذَ",
+                        "latin": "kha kha dza"
+                    }
+                },
+                {
+                    "index": 8,
+                    "left": null,
+                    "center": {
+                        "arabic": "اَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ",
+                        "latin": "a ba ta tsa ja ha kha da dza ra"
+                    },
+                    "right": null
+                }
+            ]
+        },
+        {
+            "pageNumber": 10,
+            "pageArabic": "١٠",
+            "title": null,
+            "note": null,
+            "lines": [
+                {
+                    "index": 1,
+                    "left": null,
+                    "center": {
+                        "arabic": "رَ زَ",
+                        "latin": "ra za"
+                    },
+                    "right": null
+                },
+                {
+                    "index": 2,
+                    "left": {
+                        "arabic": "ذَ رَ زَ",
+                        "latin": "dza ra za"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "رَ اَ زَ",
+                        "latin": "ra a za"
+                    }
+                },
+                {
+                    "index": 3,
+                    "left": {
+                        "arabic": "زَ خَ ذَ",
+                        "latin": "za kha dza"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "زَ دَ رَ",
+                        "latin": "za da ra"
+                    }
+                },
+                {
+                    "index": 4,
+                    "left": {
+                        "arabic": "ثَ رَ جَ",
+                        "latin": "tsa ra ja"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "زَ حَ دَ",
+                        "latin": "za ha da"
+                    }
+                },
+                {
+                    "index": 5,
+                    "left": {
+                        "arabic": "تَ زَ دَ",
+                        "latin": "ta za da"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "خَ رَ جَ",
+                        "latin": "kha ra ja"
+                    }
+                },
+                {
+                    "index": 6,
+                    "left": {
+                        "arabic": "ثَ حَ ذَ",
+                        "latin": "tsa ha dza"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "بَ جَ رَ",
+                        "latin": "ba ja ra"
+                    }
+                },
+                {
+                    "index": 7,
+                    "left": {
+                        "arabic": "زَ اَ زَ",
+                        "latin": "za a za"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "جَ اَ ",
+                        "latin": "ja a khaa"
+                    }
+                },
+                {
+                    "index": 8,
+                    "left": null,
+                    "center": {
+                        "arabic": "اَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ زَ",
+                        "latin": "a ba ta tsa ja ha kha da dza ra za"
+                    },
+                    "right": null
+                }
+            ]
+        },
+        {
+            "pageNumber": 11,
+            "pageArabic": "١١",
+            "title": null,
+            "note": null,
+            "lines": [
+                {
+                    "index": 1,
+                    "left": null,
+                    "center": {
+                        "arabic": "سَ",
+                        "latin": "sa"
+                    },
+                    "right": null
+                },
+                {
+                    "index": 2,
+                    "left": {
+                        "arabic": "زَ رَ سَ",
+                        "latin": "za ra sa"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "زَ اَ سَ",
+                        "latin": "za a sa"
+                    }
+                },
+                {
+                    "index": 3,
+                    "left": {
+                        "arabic": "حَ سَ دَ",
+                        "latin": "ha sa da"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "سَ خَ ذَ",
+                        "latin": "sa kha dza"
+                    }
+                },
+                {
+                    "index": 4,
+                    "left": {
+                        "arabic": "جَ زَ رَ",
+                        "latin": "ja za ra"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "سَ خَ ثَ",
+                        "latin": "sa kha tsa"
+                    }
+                },
+                {
+                    "index": 5,
+                    "left": {
+                        "arabic": "تَ زَ دَ",
+                        "latin": "ta za da"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "سَ بَ تَ",
+                        "latin": "sa ba ta"
+                    }
+                },
+                {
+                    "index": 6,
+                    "left": {
+                        "arabic": "زَ حَ دَ",
+                        "latin": "za ha da"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "سَ خَ ذَ",
+                        "latin": "sa kha dza"
+                    }
+                },
+                {
+                    "index": 7,
+                    "left": {
+                        "arabic": "اَ بَ تَ",
+                        "latin": "a ba ta"
+                    },
+                    "center": null,
+                    "right": {
+                        "arabic": "سَ جَ ثَ",
+                        "latin": "sa ja tsa"
+                    }
+                },
+                {
+                    "index": 8,
+                    "left": null,
+                    "center": {
+                        "arabic": "اَ بَ تَ ثَ جَ حَ خَ دَ ذَ رَ زَ سَ",
+                        "latin": "a ba ta tsa ja ha kha da dza ra za sa"
+                    },
+                    "right": null
+                }
+            ]
+        },
+        {
+            "pageNumber": 12,
+            "pageArabic": "١٢",
+            "title": null,
+            "note": null,
+            "lines": [
+                {
+                    "index": 1,
+                    "left": null,
+                    "center": {
+                        "arabic": "سَ شَ",
+                        "latin": "sa sya",
+                        "audio": null
+                    },
+                    "right": null
+                },
+                {
+                    "index": 2,
+                    "left": {
+                        "arabic": "زَ تَ شَ",
+                        "latin": "za ta sya",
+                        "audio": null
+                    },
+                    "center": {
+                        "arabic": "سَ شَ شَ",
+                        "latin": "sa sya sya",
+                        "audio": null
+                    },
+                    "right": {
+                        "arabic": "سَ اَ شَ",
+                        "latin": "sa a sya",
+                        "audio": null
+                    }
+                },
+                {
+                    "index": 3,
+                    "left": {
+                        "arabic": "شَ تَ ذَ",
+                        "latin": "sya ta dza",
+                        "audio": null
+                    },
+                    "center": {
+                        "arabic": "دَ رَ سَ",
+                        "latin": "da ra sa",
+                        "audio": null
+                    },
+                    "right": {
+                        "arabic": "شَ ذَ ثَ",
+                        "latin": "sya dza tsa",
+                        "audio": null
+                    }
+                },
+                {
+                    "index": 4,
+                    "left": {
+                        "arabic": "جَ رَ سَ",
+                        "latin": "ja ra sa",
+                        "audio": null
+                    },
+                    "center": {
+                        "arabic": "خَ شَ بَ",
+                        "latin": "kha sya ba",
+                        "audio": null
+                    },
+                    "right": {
+                        "arabic": "زَ حَ ثَ",
+                        "latin": "za ha tsa",
+                        "audio": null
+                    }
+                },
+                {
+                    "index": 5,
+                    "left": {
+                        "arabic": "حَ سَ دَ",
+                        "latin": "ha sa da",
+                        "audio": null
+                    },
+                    "center": {
+                        "arabic": "رَ شَ ذَ",
+                        "latin": "ra sya dza",
+                        "audio": null
+                    },
+                    "right": {
+                        "arabic": "سَ شَ اَ",
+                        "latin": "sa sya a",
+                        "audio": null
+                    }
+                },
+                {
+                    "index": 6,
+                    "left": {
+                        "arabic": "شَ زَ رَ",
+                        "latin": "sya za ra",
+                        "audio": null
+                    },
+                    "center": {
+                        "arabic": "اَ سَ شَ",
+                        "latin": "a sa sya",
+                        "audio": null
+                    },
+                    "right": {
+                        "arabic": "ذَ خَ زَ",
+                        "latin": "dza kha za",
+                        "audio": null
+                    }
+                },
+                {
+                    "index": 7,
+                    "left": {
+                        "arabic": "اَ بَ تَ",
+                        "latin": "a ba ta",
+                        "audio": null
+                    },
+                    "center": {
+                        "arabic": "شَ زَ جَ",
+                        "latin": "sya za ja",
+                        "audio": null
+                    },
+                    "right": {
+                        "arabic": "خَ سَ دَ",
+                        "latin": "kha sa da",
+                        "audio": null
+                    }
+                },
+                {
+                    "index": 8,
+                    "left": null,
+                    "center": {
+                        "arabic": "ثَ جَ حَ خَ دَ ذَ رَ زَ سَ",
+                        "latin": "tsa ja ha kha da dza ra za sa",
+                        "audio": null
+                    },
+                    "right": null
                 }
             ]
         }
